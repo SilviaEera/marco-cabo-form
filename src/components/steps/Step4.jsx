@@ -162,6 +162,17 @@ const Step4 = () => {
             </div>
           </div>
 
+          {/* Private Villa or Airbnb Transfer Button */}
+          <div className="space-y-2">
+            <button
+              type="button"
+              onClick={() => window.open('mailto:info@marco-cabo.com', '_blank')}
+              className="w-full px-4 py-3 border-2 border-dashed border-gray-300 rounded-md hover:border-primary hover:bg-primary/5 transition-colors text-center text-gray-600 hover:text-primary hover:cursor-pointer"
+            >
+              🏠 Private Villa or Airbnb Transfer Inquiry
+            </button>
+          </div>
+
           <div className="space-y-2">
             <Label htmlFor="arrivalLocationDetails" className="flex items-center gap-2">
               <MapPin className="w-4 h-4" />
